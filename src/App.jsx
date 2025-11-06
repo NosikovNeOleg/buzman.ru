@@ -52,7 +52,7 @@ export default function App(){
         <section className="hero hero--light">
           <div className="hero__left" data-parallax-depth="0.20">
             <div className="hero__photo">
-              <img src="/sergey.png" alt="Portrait" onError={(e)=>{e.currentTarget.src='/assets/sergey-placeholder.jpg'}} />
+              <img src={`${import.meta.env.BASE_URL}assets/sergey.png`} alt="Упс, я пропал" />
               <div className="hero__photo-gradient" aria-hidden="true"></div>
             </div>
           </div>
