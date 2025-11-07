@@ -44,10 +44,6 @@ export default function App(){
 
   return (
     <>
-      <header className="header">
-        <div className="header__brand"></div>
-      </header>
-
       <main className="layout">
         <section className="hero hero--light">
           <div className="hero__left" data-parallax-depth="0.20">
